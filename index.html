@@ -1,11 +1,613 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-  </body>
-</html>
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>GetShayna by BuildWith Angga</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+     
+      <link rel="stylesheet" href="main.css">
+      <link rel="stylesheet" href="secondary.css">
+    </head>
+    <body>
+   
+  <section class="h-100 w-100 background-primary" style="box-sizing: border-box;">
+    <div class="container-xxl mx-auto p-0  position-relative header-2-1 ">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a href="#">
+          <img style="margin-right: 0.75rem"
+            src="logo.jpg" width="50" height="50">
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="modal" data-bs-target="#targetModal-item">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="modal-item modal fade" id="targetModal-item" tabindex="-1" role="dialog"
+          aria-labelledby="targetModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content bg-white border-0">
+              <div class="modal-header border-0" style="padding: 2rem; padding-bottom: 0">
+                <a class="modal-title" id="targetModalLabel">
+                  <img style="margin-top: 0.5rem"
+                    src="http://api.elements.buildwithangga.com/storage/files/2/assets/Header/Header2/Header-2-2.png"
+                    alt="" />
+                </a>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body" style="padding: 2rem; padding-top: 0; padding-bottom: 0">
+                <ul class="navbar-nav responsive me-auto mt-2 mt-lg-0 text-dark">
+                  <li class="nav-item active">
+                    <a class="nav-link " href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-dark" href="#">Feature</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="modal-footer border-0 gap-3" style="padding: 2rem; padding-top: 0.75rem">
+                <button class="btn btn-default btn-no-fill">
+                  Log In
+                </button>
+                <button class="btn btn-fill text-white">Try Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo">
+          <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link link-underline" href="#">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-underline" href="#">Pabean</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-underline" href="#">Fasilitas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-underline" href="#">Layanan Informasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-underline" href="#">Lainnya</a>
+            </li>
+          </ul>
+          <div class="gap-3">
+           
+            <button class="btn btn-fill text-dark">Login</button>
+          </div>
+        </div>
+      </nav>
+
+      <div>
+        <div class="mx-auto d-flex flex-lg-row flex-column hero">
+          <!-- Left Column -->
+          <div
+            class="left-column d-flex flex-lg-grow-1 flex-column align-items-lg-start text-lg-start align-items-center text-center">
+            <h2 class="text-title">Direktorat Jenderal</h2>
+            <h1 class="title-text-big ">
+              Bea dan Cukai
+            </h1>
+            <p class="text-mini mt-2">Instansi kepabean dalam pengawasan
+             <br class="space"> untuk ekspor dan impor barang</p>
+            <div class="d-flex  align-items-center mx-lg-0 mx-auto justify-content-center mt-2">
+              <button class="btn d-inline-flex mb-md-0 btn-try">
+                SELENGKAPNYA
+              </button>
+             
+            </div>
+          </div>
+          <!-- Right Column -->
+          <div class="right-column text-center d-flex justify-content-center ">
+            <img id="img-fluid" class="h-auto mw-100 mt-min-3 image"
+              src="image.jpg"
+              alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="h-100 w-100 bg-light" style="box-sizing: border-box">
+    <div class="content-2-1 container-xxl mx-auto p-0  position-relative bg-light">
+      <div class="text-center title-text">
+        <h2 class="text-big">History of DJBC</h2>
+        <p class="text-caption-big p-2 m-0" style="margin-left: 3rem; margin-right: 3rem">
+          Sekilas penjelasan mengenai sejarah dari terbentuknya <br class="break">
+          Direktorat Jenderal Bea dan Cukai
+        </p>
+      </div>
+
+      <div class="grid-padding">
+        <div class="row ">
+          <div class="col-lg-5 column">
+            
+            <h3 class="sub-head mt-5">Sejarah Awal DJBC</h3>
+            <p class="icon-caption mt-3">
+              CUSTOMS (Instansi Kepabeanan) di mana pun di dunia ini adalah suatu organisasi yang keberadaannya amat essensial 
+            </p>
+            <button class="btn btn-card float-start w-60">See Details</button>
+          </div>
+        
+          <div class="col-lg-7 column">
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/6OSEkH2zQQw" title="Direktorat Jenderal Bea dan Cukai Dari Masa ke Masa" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="h-100 w-100 bg-light" style="box-sizing: border-box">
+    <div class="content-2-1 container-xxl mx-auto p-0  position-relative bg-light">
+      <div class="text-center title-text">
+        <h2 class="text-big">Mobile Application</h2>
+        <p class="text-caption p-2 m-0">
+          Berikut ini adalah daftar Sistem Informasi aplikasi yang kami sediakan <br> untuk layanan yang dapat diakses
+        </p>
+      </div>
+
+      <div class="grid-padding">
+        <div class="row ">
+          <div class="col-lg-4">
+            <div class="card-radius mb-4">
+            <div class="icon">
+          <i class="fas fa-suitcase text-light fs-3 p-7 icon-background rounded-circle"></i>
+            </div>
+            <h3 class="icon-title">Kanal Bea Cukai</h3>
+            <p class="icon-caption">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+            <button class="btn background-primary text-light button-download" onclick="redirect('https://play.google.com/store/apps/details?id=id.go.beacukai.customer')"> <i class="fas fa-download me-1"></i>  Download Now</button>
+          </div>
+        </div>
+          <div class="col-lg-4 ">
+            <div class="card-radius mb-4 ">
+            <div class="icon">
+              <i class="fas fa-marker text-light fs-3 p-7  icon-background rounded-circle"></i>
+            </div>
+            <h3 class="icon-title ">Ceisa Mobile</h3>
+            <p class="icon-caption">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+            <button class="btn background-primary text-light button-download" onclick="redirect('https://play.google.com/store/apps/details?id=id.go.beacukai.myceisa')"><i class="fas fa-download me-1"></i> Download Now</button>
+          </div>
+        </div>
+          <div class="col-lg-4 ">
+            <div class="card-radius mb-4">
+            <div class="icon">
+             <i class="fas fa-book text-light fs-3 p-7  icon-background rounded-circle"></i>
+            </div>
+    
+            <h3 class="icon-title ">Warta Bea Cukai</h3>
+            <p class="icon-caption">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+            <button class="btn background-primary text-light button-download" onclick="redirect('https://play.google.com/store/apps/details?id=id.go.beacukai.wbc')"><i class="fas fa-download me-1"></i> Download Now</button>
+          </div>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-lg-4 ">
+            <div class="card-radius mb-4 ">
+            <div class="icon ">
+             <i class="fas fa-search text-light fs-3 p-7 icon-background rounded-circle"></i>
+
+            </div>
+            <h3 class="icon-title">UU Pabean</h3>
+            <p class="icon-caption">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+            <button class="btn background-primary text-light button-download" onclick="redirect('https://play.google.com/store/apps/details?id=id.go.beacukai.customer')"><i class="fas fa-download me-1"></i> Download Now</button>
+          </div>
+        </div>
+          <div class="col-lg-4 ">
+            <div class="card-radius mb-4 ">
+            <div class="icon ">
+            <i class="fas fa-volume-up text-light fs-3 p-7 icon-background rounded-circle"></i>
+            </div>
+            <h3 class="icon-title ">UU Cukai</h3>
+            <p class="icon-caption">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+            <button class="btn background-primary text-light button-download" onclick="redirect('https://play.google.com/store/apps/details?id=id.go.beacukai.customer')"><i class="fas fa-download me-1"></i> Download Now</button>
+          </div>
+        </div>
+          <div class="col-lg-4 ">
+            <div class="card-radius ">
+            <div class="icon">
+              <i class="fas fa-paste text-light fs-3 p-7 icon-background rounded-circle"></i>
+
+            </div>
+    
+            <h3 class="icon-title ">Bravo Bea Cukai</h3>
+            <p class="icon-caption">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+            <button class="btn background-primary text-light button-download" onclick="redirect('https://play.google.com/store/apps/details?id=id.go.beacukai.customer')"><i class="fas fa-download me-1"></i> Download Now</button>
+          </div>
+          </div>
+        
+      
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  
+  <section class="h-100 w-100 bg-light" style="box-sizing: border-box;">
+ 
+    <div class="content-3-1 container-xxl mx-auto position-relative">
+      <div class="text-center title-text">
+        <h2 class="text-big">Complain Service</h2>
+        <p class="text-caption p-2 m-0">
+          Anda dapat menyampaikan aduan pada kami jika anda <br class="break">
+          melihat pelanggaran yang tidak wajar
+        </p>
+      </div>
+      <div class="d-flex flex-lg-row flex-column align-items-center">
+        <!-- Left Column -->
+        <div class="img-hero text-center justify-content-center d-flex">
+          <img id="hero" class="w-75"
+            src="svg77.svg"
+            alt="" />
+        </div>
+
+        <!-- Right Column -->
+        <div class="right-column d-flex flex-column align-items-lg-start align-items-center text-lg-start text-center">
+          <h2 class="title-text">Sampaikan Aduan Melalui</h2>
+          <ul class="p-0 m-0">
+            <li class="list-unstyled" style="margin-bottom: 2rem">
+              <h4
+                class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                <span class="fab fa-chrome circle text-light d-flex align-items-center justify-content-center">
+                  
+                </span>
+               Website Beacukai
+              </h4>
+              <p class="text-caption">
+                We have provided highly experienced mentors<br class="d-sm-inline d-none" />
+                for several years.
+              </p>
+            </li>
+            <li class="list-unstyled" style="margin-bottom: 2rem">
+              <h4
+                class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                <span class="fa fa-envelope circle text-white d-flex align-items-center justify-content-center">
+                
+                </span>
+               Email Beacukai
+              </h4>
+              <p class="text-caption">
+                Are you busy at work so it's hard to consult? don't<br class="d-sm-inline d-none" />
+                worry because you can access anytime.
+              </p>
+            </li>
+            <li class="list-unstyled" style="margin-bottom: 2rem">
+              <h4
+                class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                <span class="fa fa-phone circle text-white d-flex align-items-center justify-content-center">
+                
+                </span>
+               Call Center
+              </h4>
+              <p class="text-caption">
+                We provide economical packages for those of you<br class="d-sm-inline d-none" />
+                who are still in school or workers.
+              </p>
+            </li>
+
+            <li class="list-unstyled">
+              <h4
+                class="title-caption d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+                <span class="fas fa-home circle text-white d-flex align-items-center justify-content-center">
+                
+                </span>
+               Kantor Terdekat
+              </h4>
+              <p class="text-caption">
+                We provide economical packages for those of you<br class="d-sm-inline d-none" />
+                who are still in school or workers.
+              </p>
+            </li>
+          </ul>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="h-100 w-100 bg-light" style="box-sizing: border-box">
+    <div class="content-2-1 container-xxl mx-auto p-0  position-relative bg-light">
+      <div class="text-center title-text">
+        <h2 class="text-big">Digital Product</h2>
+        <p class="text-caption p-2 m-0">
+          Berikut ini adalah daftar Aplikasi Digital yang kami sediakan <br> untuk layanan yang dapat diakses
+        </p>
+      </div>
+
+      <div class="grid-padding">
+        <div class="row ">
+          <div class="col-lg-4">
+            <div class="card-radius mb-4 border-bottom">
+            <div class="icon">
+          <i class="fas fa-suitcase text-light fs-3 p-7 icon-background rounded-circle"></i>
+            </div>
+            <h3 class="icon-title">Portal Pengguna</h3>
+            <p class="icon-caption">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+            <a href="#" class="color-primary text-link">Visit Site <i class="fas fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+          <div class="col-lg-4 ">
+            <div class="card-radius mb-4 border-bottom">
+            <div class="icon">
+              <i class="fas fa-marker text-light fs-3 p-7  icon-background rounded-circle"></i>
+            </div>
+            <h3 class="icon-title ">Registrasi IMEI</h3>
+            <p class="icon-caption">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+            <a href="#" class="color-primary text-link">Visit Site <i class="fas fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+          <div class="col-lg-4 ">
+            <div class="card-radius mb-4 border-bottom">
+            <div class="icon">
+             <i class="fas fa-book text-light fs-3 p-7  icon-background rounded-circle"></i>
+            </div>
+    
+            <h3 class="icon-title ">BTKI</h3>
+            <p class="icon-caption">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+            <a href="#" class="color-primary text-link">Visit Site <i class="fas fa-arrow-right ms-1"></i></a>
+          </div>
+          </div>
+        </div>
+        <div class="row mb-4">
+          <div class="col-lg-4 ">
+            <div class="card-radius mb-4 border-bottom">
+            <div class="icon ">
+             <i class="fas fa-search text-light fs-3 p-7 icon-background rounded-circle"></i>
+
+            </div>
+            <h3 class="icon-title">Tracking Barang</h3>
+            <p class="icon-caption">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+            <a href="#" class="color-primary text-link">Visit Site <i class="fas fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+          <div class="col-lg-4 ">
+            <div class="card-radius mb-4 border-bottom">
+            <div class="icon ">
+            <i class="fas fa-volume-up text-light fs-3 p-7 icon-background rounded-circle"></i>
+            </div>
+            <h3 class="icon-title ">Pengaduan Suara</h3>
+            <p class="icon-caption">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+            <a href="#" class="color-primary text-link">Visit Site <i class="fas fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+          <div class="col-lg-4 ">
+            <div class="card-radius border-bottom">
+            <div class="icon">
+              <i class="fas fa-paste text-light fs-3 p-7 icon-background rounded-circle"></i>
+
+            </div>
+    
+            <h3 class="icon-title ">Yacht and Vessel</h3>
+            <p class="icon-caption">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+            <a href="#" class="color-primary text-link">Visit Site <i class="fas fa-arrow-right ms-1"></i></a>
+          </div>
+          </div>
+        
+      
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-lg-4 ">
+            <div class="card-radius mb-4 border-bottom">
+            <div class="icon ">
+             <i class="fas fa-search text-light fs-3 p-7 icon-background rounded-circle"></i>
+
+            </div>
+            <h3 class="icon-title">Layanan Konsultasi</h3>
+            <p class="icon-caption">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+            <a href="#" class="color-primary text-link">Visit Site <i class="fas fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+          <div class="col-lg-4 ">
+            <div class="card-radius mb-4 border-bottom">
+            <div class="icon ">
+            <i class="fas fa-volume-up text-light fs-3 p-7 icon-background rounded-circle"></i>
+            </div>
+            <h3 class="icon-title ">Free Trade</h3>
+            <p class="icon-caption">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+            <a href="#" class="color-primary text-link">Visit Site <i class="fas fa-arrow-right ms-1"></i></a>
+          </div>
+        </div>
+          <div class="col-lg-4 ">
+            <div class="card-radius border-bottom">
+            <div class="icon">
+              <i class="fas fa-paste text-light fs-3 p-7 icon-background rounded-circle"></i>
+
+            </div>
+    
+            <h3 class="icon-title ">E-CD</h3>
+            <p class="icon-caption">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit
+            </p>
+            <a href="#" class="color-primary text-link">Visit Site <i class="fas fa-arrow-right ms-1"></i></a>
+          </div>
+          </div>
+        
+      
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="h-100 w-100 background-primary" style="box-sizing: border-box">
+		<div class="footer-2-1 container-xxl mx-auto position-relative p-0">
+			<div class="list-footer">
+				<div class="row gap-md-0 gap-3">
+					<div class="col-lg-4 col-md-6">
+            <h2 class="footer-text-title">Bea Cukai</h2>
+            <p class="list-menu">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi corporis quis fuga, hic illum eligendi eum laudantium. Nobis, consequuntur quis odio, dolorum eveniet, ullam soluta dignissimos fuga recusandae deserunt cupiditate.</p>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<h2 class="footer-text-title">Product</h2>
+						<nav class="list-unstyled">
+							<li class="list-space">
+								<a href="" class="list-menu">Portal Pengguna</a>
+							</li>
+							<li class="list-space">
+								<a href="" class="list-menu">Registrasi IMEI</a>
+							</li>
+							<li class="list-space">
+								<a href="" class="list-menu">BTKI</a>
+							</li>
+							<li class="list-space">
+								<a href="" class="list-menu">Yacht and Vessel</a>
+							</li>
+						
+						</nav>
+					</div>
+					<div class="col-lg-3 col-md-6">
+						<h2 class="footer-text-title">Company</h2>
+						<nav class="list-unstyled">
+							<li class="list-space">
+								<a href="" class="list-menu">Contact Us</a>
+							</li>
+							<li class="list-space">
+								<a href="" class="list-menu">Blog</a>
+							</li>
+							<li class="list-space">
+								<a href="" class="list-menu">Culture</a>
+							</li>
+							<li class="list-space">
+								<a href="" class="list-menu">Security</a>
+							</li>
+						</nav>
+					</div>
+					<div class="col-lg-2 col-md-6">
+						<h2 class="footer-text-title">Support</h2>
+						<nav class="list-unstyled">
+							<li class="list-space">
+								<a href="" class="list-menu">Getting Started</a>
+							</li>
+							<li class="list-space">
+								<a href="" class="list-menu">Help Center</a>
+							</li>
+							<li class="list-space">
+								<a href="" class="list-menu">Server Status</a>
+							</li>
+						</nav>
+					</div>
+				</div>
+			</div>
+
+			<div class="border-color info-footer">
+				<div class="">
+					<hr class="hr" />
+				</div>
+				<div class="mx-auto d-flex flex-column flex-lg-row align-items-center footer-info-space gap-4">
+					<div class="d-flex title-font font-medium align-items-center gap-3">
+            <a href="https://facebook.com/beacukaiRI" class="link-icon">
+              <svg class="social-media-c icon-padding" width="33" height="33" viewBox="0 0 320 512" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+              
+                  <path
+                    d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"
+                    fill="#141432" />
+              
+              </svg>
+            </a>
+          
+            <a href="https://instagram.com/beacukaiRI" class="link-icon">
+              <svg class="social-media-c icon-padding" width="33" height="33" viewBox="0 0 448 512" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+              
+                  <path
+                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                    fill="#141432" />
+              
+              </svg>
+            </a>
+
+            <a href="https://twitter.com/beacukaiRI" class="link-icon">
+              <svg class="social-media-c icon-padding" width="33" height="33" viewBox="0 0 512 512" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+              
+                  <path
+                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
+                    fill="#141432" />
+              
+              </svg>
+            </a>
+
+
+             <a href="https://youtube.com/beacukaiRI" class="link-icon">
+              <svg class="social-media-c icon-padding" width="33" height="33" viewBox="0 0 576 512" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+              
+                  <path
+                    d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"
+                    fill="#141432" />
+              
+              </svg>
+            </a>
+					</div>
+					<nav class="mx-auto d-flex flex-wrap align-items-center justify-content-center gap-4">
+						<a href="" class="footer-link" style="text-decoration: none">Terms of Service</a>
+						<span>|</span>
+						<a href="" class="footer-link" style="text-decoration: none">Privacy Policy</a>
+						<span>|</span>
+						<a href="" class="footer-link" style="text-decoration: none">Licenses</a>
+					</nav>
+					<nav class="d-flex flex-lg-row flex-column align-items-center justify-content-center">
+						<p style="margin: 0">Copyright © 2023 Mulyadi Yusuf</p>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section> 
+
+
+  <!-- ADDITIONAL ICON -->
+      <div class="additional-icon">
+        <a href="#logo" class="back-to-top scroll-to-top "><i class="fa fa-chevron-up margin-"></i></a>
+        <a href="#" class="live-chat"><i class="fas fa-headset"></i></a>
+      </div>
+  <!-- ADDITIONAL ICON -->
+     
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha384-S58meLBGKxIiQmJ/pJ8ilvFUcGcqgla+mWH9EEKGm6i6rKxSTA2kpXJQJ8n7XK4w" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    </body>
+  </html>
