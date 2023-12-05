@@ -1,0 +1,43 @@
+  .color-secondary {
+    color: #ffc107;
+  }
+  
+  .color-primary {
+   color: #02275D;
+  }
+
+  .background-secondary {
+    background-color: #ffc107;
+  }
+
+  .background-primary {
+    background-color: #02275D;
+  }
+
+  .mt-min-3 {
+    margin-top: -3rem;
+  }
+
+  @media (max-width:992px) {
+   .mt-min-3 {
+    margin-top: unset;
+  }
+  
+  }
+
+  .border-box {
+    box-sizing: border-box;
+  }
+  .w-60 {
+    width: 60% !important;
+  }
+
+  .p-7 {
+    padding: 0.75rem;
+  }
+  
+  
+  .icon-background {
+    background-image: linear-gradient(rgba(255, 193, 7, 1),rgba(233, 202, 22, 1));
+  
+  }
