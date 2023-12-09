@@ -420,7 +420,8 @@
 
   padding-left: 1.2rem;
   padding-bottom: 1.50rem;
-  background-color:#02275D;
+
+
   border-radius: 0.75rem;
   transition: all 0.3s ease-out 0s;
 
@@ -441,23 +442,25 @@
     
 }
 
+
 .content-2-1 .button-playstore {
   font: 500 1rem/1.5rem 'Montserrat', sans-serif;
 
   background-color: #ffc107;
   padding-top: 0.90rem;
   padding-bottom: 0.90rem;
-  width: 50%;
+ 
   border-radius: 0.5rem;
 }
 
 .content-2-1 .button-appstore {
   font: 500 1rem/1.5rem 'Montserrat', sans-serif;
+
   color: #141c2e;
   background-color:black;
   padding-top: 0.90rem;
   padding-bottom: 0.90rem;
-  width: 50%;
+ 
   border-radius: 0.5rem;
 }
 
@@ -712,9 +715,35 @@
 
 
 
-/* ==========> CONTACT SECTION <========== */
+/* ==========> SUBSCRIBE SECTION <========== */
+.content-2-1 .btn-subscribe {
+  font: 600 1rem/1.5rem 'Montserrat', sans-serif;
+  background-color: white;
+  color: #02275D;
+  border-radius: 0.5rem;
+}
 
-/* ==========> CONTACT SECTION <========== */
+.content-2-1 .form-control {
+  padding: 0.8rem;
+  background-color: unset;
+  border-right: unset;
+  border: 2px solid white;
+  color: white;
+}
+
+.content-2-1 .form-control:focus {
+  box-shadow: unset;
+  color: #c7c7c7;
+}
+.content-2-1 .form-control::placeholder {
+  color: #c7c7c7;
+}
+.content-2-1 .bg-gray {
+  color: #c7c7c7;
+}
+
+
+/* ==========> SUBSCRIBE SECTION <========== */
 
 
 
