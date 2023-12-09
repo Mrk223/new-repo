@@ -11,7 +11,7 @@
   }
 
   .background-primary {
-    background-color: #02275D;
+    background-image: linear-gradient(rgb(2, 39, 93),rgb(6, 32, 71));
   }
 
   .mt-min-3 {
@@ -45,3 +45,11 @@
   .text-light-2 {
     color: #c7c7c7;
   }
+
+  .bg-2 {
+  
+    background-image: linear-gradient(rgb(2, 39, 93),rgb(6, 32, 71));
+    
+  }
+
+  
