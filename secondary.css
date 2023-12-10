@@ -11,6 +11,10 @@
   }
 
   .background-primary {
+    background-color: #02275D;
+  }
+
+  .background-primary-2 {
     background-image: linear-gradient(rgb(2, 39, 93),rgb(6, 32, 71));
   }
 
