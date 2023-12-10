@@ -370,8 +370,8 @@
 .content-2-1 .btn-card {
   font: 500 1rem/1.5rem 'Montserrat', sans-serif;
   background-image: linear-gradient(rgb(2, 39, 93),rgb(6, 32, 71));
-  padding-top: 0.9rem;
-  padding-bottom: 0.9rem;
+  padding-top: 0.99rem;
+  padding-bottom: 0.99rem;
   border-radius: 0.5rem;
   color: white;
 
