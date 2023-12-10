@@ -275,6 +275,10 @@
   }
 
 }
+
+@media (max-width: 992px) {
+
+}
 /* ==========> NAVBAR + BANNER SECTION <========== */
 
 
@@ -365,7 +369,7 @@
 
 .content-2-1 .btn-card {
   font: 500 1rem/1.5rem 'Montserrat', sans-serif;
-  background-color:#02275D;
+  background-image: linear-gradient(rgb(2, 39, 93),rgb(6, 32, 71));
   padding-top: 0.9rem;
   padding-bottom: 0.9rem;
   border-radius: 0.5rem;
@@ -446,7 +450,8 @@
 .content-2-1 .button-playstore {
   font: 500 1rem/1.5rem 'Montserrat', sans-serif;
 
-  background-color: #ffc107;
+  background-image: linear-gradient(rgba(255, 193, 7, 1),rgba(233, 202, 22, 1));
+
   padding-top: 0.90rem;
   padding-bottom: 0.90rem;
  
@@ -455,7 +460,7 @@
 
 .content-2-1 .button-appstore {
   font: 500 1rem/1.5rem 'Montserrat', sans-serif;
-
+  margin-left: 0.4rem;
   color: #141c2e;
   background-color:black;
   padding-top: 0.90rem;
@@ -470,7 +475,7 @@
 }
 
 .content-2-1 .text-link:hover {
-  color: #ffc107;
+  color: #02275D;
   text-decoration: underline;
 }
 
@@ -704,11 +709,6 @@
     display: none;
   }
 
-  
-
-
-
-  
 }
 /* ==========> COMPLAIN SECTION <========== */
 
