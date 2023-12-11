@@ -9,10 +9,15 @@
   top: 2rem;
 }
 
+.header-2-1 {
+  background-image: linear-gradient(rgb(2, 39, 93),rgb(6, 32, 71));
+}
+
 .header-2-1 .navbar,
 .header-2-1 .hero {
   padding: 3rem 2rem;
-  background-color: #02275D;
+  
+  box-shadow: unset;
 
 }
 
@@ -274,9 +279,15 @@
     line-height: 1.2;
   }
 
+  
+
 }
 
-@media (max-width: 992px) {
+@media (max-width:992px) {
+  .header-2-1 .modal-item .modal-dialog {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
 
 }
 /* ==========> NAVBAR + BANNER SECTION <========== */
@@ -369,9 +380,9 @@
 
 .content-2-1 .btn-card {
   font: 500 1rem/1.5rem 'Montserrat', sans-serif;
-  background-image: linear-gradient(rgb(2, 39, 93),rgb(6, 32, 71));
-  padding-top: 0.99rem;
-  padding-bottom: 0.99rem;
+  background-color:#02275D;
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
   border-radius: 0.5rem;
   color: white;
 
@@ -406,7 +417,7 @@
 }
 
 .content-2-1 .card-radius {
-  padding: 1.5rem 1.75rem;
+  padding: 1.5rem 1.60rem;
   background-color:white ;
   border-radius: 0.75rem;
   transition: all 0.3s ease-out 0s;
@@ -415,7 +426,6 @@
 
 .content-2-1 .card-radius:hover {
   box-shadow:0 .5rem 1rem rgba(0,0,0,.15);
-
 }
 
 
@@ -449,22 +459,19 @@
 
 .content-2-1 .button-playstore {
   font: 500 1rem/1.5rem 'Montserrat', sans-serif;
-
-  background-image: linear-gradient(rgba(255, 193, 7, 1),rgba(233, 202, 22, 1));
-
-  padding-top: 0.90rem;
-  padding-bottom: 0.90rem;
+  
+  background-color: #ffc107;
+  
  
   border-radius: 0.5rem;
 }
 
 .content-2-1 .button-appstore {
   font: 500 1rem/1.5rem 'Montserrat', sans-serif;
-  margin-left: 0.4rem;
+  
   color: #141c2e;
   background-color:black;
-  padding-top: 0.90rem;
-  padding-bottom: 0.90rem;
+  padding: 0.90rem;
  
   border-radius: 0.5rem;
 }
@@ -475,7 +482,7 @@
 }
 
 .content-2-1 .text-link:hover {
-  color: #02275D;
+  color: #ffc107;
   text-decoration: underline;
 }
 
@@ -526,6 +533,13 @@
     padding: 3rem 2rem 5rem;
   }
 
+
+}
+
+@media (max-width:576px) {
+  .content-2-1 .card-radius {
+    padding: 1.5rem 1.75rem;
+  }
 }
 
 @media (min-width: 768px) {
@@ -557,6 +571,7 @@
  
 }
 
+
 @media (max-width:992px) {
   .content-2-1 .text-big {
     font: 800 1.800rem/2.25rem Montserrat, sans-serif;
@@ -581,6 +596,12 @@
 
   .content-2-1 .h-80 {
     height: 300px;
+  }
+  .content-2-1 .button-playstore {
+    width: 50%;
+  }
+  .content-2-1 .button-appstore {
+    width: 50%;
   }
 
  
@@ -669,6 +690,8 @@
 
 
 
+
+
 @media (min-width: 768px) {
   .content-3-1 .title-text {
     font: 600 1.9rem/2.5rem 'Montserrat', sans-serif;
@@ -707,6 +730,10 @@
 
   .content-3-1 .break {
     display: none;
+  }
+
+  .content-3-1 .image-complain {
+    margin-top: unset;
   }
 
 }
