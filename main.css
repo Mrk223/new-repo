@@ -306,6 +306,7 @@
     background-color: #fff;
     border-radius: .75rem;
     transition: .3s ease-out;
+    box-shadow: 0 0 12px 0 rgba(152, 152, 152, .10);
     
 }
 
