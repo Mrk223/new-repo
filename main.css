@@ -112,8 +112,8 @@
 }
 
 .header-2-1 .text-mini {
-    font-size: 19px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 400;
     color: #ddd5d5
 }
 
@@ -245,7 +245,7 @@
 }
 
 .content-2-1 .sub-head {
-    font: 600 1.8rem/2rem Montserrat, sans-serif;
+    font: 600 1.6rem/2rem Montserrat, sans-serif;
     margin-bottom: .625rem;
     color: #121212
 }
@@ -306,7 +306,7 @@
     background-color: #fff;
     border-radius: .75rem;
     transition: .3s ease-out;
-    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .15)
+    
 }
 
 .content-2-1 .card-contact:hover,
@@ -330,10 +330,9 @@
 }
 
 .content-2-1 iframe {
-    
    
     border-radius: 5px;
-    box-shadow: 0 0 12px 0 rgba(152, 152, 152, .46)
+    box-shadow: 0 0 12px 0 rgba(152, 152, 152, .46);
 }
 
 .content-2-1 .button-playstore {
@@ -479,7 +478,7 @@
 }
 
 .content-3-1 .title-text {
-    font: 600 1.875rem/2.25rem Montserrat, sans-serif;
+    font: 600 1.6rem/2.25rem Montserrat, sans-serif;
     margin-bottom: 2.5rem;
     letter-spacing: -.025em;
     color: #121212
